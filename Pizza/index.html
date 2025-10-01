@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <form method="post" action="http://localhost/pizza">
+    <fieldset>
+        <legend>Pedido</legend>
+
+            <fieldset>
+                <legend>Contato</legend>
+                <Label for="txtNome">Nome: </Label>
+                <input id="txtNome" name="Nome" type="text">
+
+                <Label for="txtTelefone">Telefone: </Label>
+                <input id="txtTelefone" name="Telefone" type="text">
+            </fieldset>
+
+            <fieldset>
+                <legend>Endereço</legend>
+                <Label for="txtBairro">Bairro: </Label>
+                <input id="txtBairro" name="Bairro" type="text">
+
+                <Label for="txtRua">Rua: </Label>
+                <input id="txtRua" name="Rua" type="text">
+            </fieldset>
+
+            <fieldset>
+                <legend>Pizza</legend>
+                <label for="selectTamanhoPizza">Tamanho:</label>
+                <select id="selectTamanhoPizza" name="TamanhoPizza">
+                    <option value="Baby">Baby</option>
+                    <option value="Grande">Grande</option>
+                    <option value="Gigante">Gigante</option>
+                </select>
+
+                <label for="selectSaborPizza">Sabores:</label>
+                <select id="selectSaborPizza" name="SaborPizza">
+                    <option value="Calabresa">Calabresa</option>
+                    <option value="Frango">Frango</option>
+                    <option value="Peixe">Peixe</option>
+                </select>
+
+                <Label for="chkBordaRecheada">Borda Recheada: </Label>
+                <input id="chkBordaRecheada" name="BordaRecheada" type="checkbox">
+
+                <label>
+                    <input type="radio" name="option" value="option1"> Chocolate
+                </label>
+                <label>
+                    <input type="radio" name="option" value="option2"> Cheddar
+                </label>
+                <label>
+                    <input type="radio" name="option" value="option3"> Sem Recheio
+                </label>
+            </fieldset>
+        </fieldset>
+    </form>
+</body>
+</html>

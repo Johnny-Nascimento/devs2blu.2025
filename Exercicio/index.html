@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+    #div1 {
+        width: 200px;
+        height: 100px;
+        border: solid 2px red;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    #div1 p{
+        width: 150px;
+        height: 50px;
+        border: solid 1px blue;
+        padding: 15px;
+        margin: 10px;
+    }
+
+    #div2 ul {
+        width: 300px;
+        height: 200px;
+        border: dashed 1px green;
+        padding: 20px;
+        margin: 15px;
+    }
+
+    #div2 li {
+        width: 250px;
+        margin: 10px;
+    }
+
+    #div3 {
+        width: 300px;
+        height: 150px;
+        border: solid 2px black;
+        padding: 20px;
+        margin: 15px;
+        box-sizing: border-box;
+    }
+
+    #div3B {
+        width: 100px;
+        height: 50px;
+        padding: 10px;
+        margin: 5px;
+        box-sizing: border-box;
+        border: solid 1px gray;
+    }
+
+    #div4{
+        width: 100px;
+        height: 100px;
+        background: linear-gradient(to right, aqua, green, blue, red, orange, yellow, purple);
+    }
+
+    #div4:hover {
+        width: 500px;
+        height: 500px;
+        position: relative;
+        right: -20px;
+        bottom: -10px;
+    }
+
+    .container1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .container2 {
+        display: flex;
+        flex-direction: row;
+        align-content: space-between;
+        width: 500px;
+        background-color: green;
+    }
+
+    span{
+        border: solid 1px white;
+        background-color: blueviolet;
+        width: 100%;
+        height: 100%;
+    }
+
+    .container3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+</style>
+<body>
+    <div id="div1">
+        <p>Texto dentro do paragrafo.</p>
+    </div>
+    <div id="div2">
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+        </ul>
+    </div>
+    <div id="div3">
+        <div id="div3B"></div>
+    </div>
+
+    <main class="container1">
+        <div id="div4">
+            <p>teste</p>
+        </div>
+    </main>
+
+    <main class="container2">
+        <span>Coluna 1</span>
+        <span>Coluna 2</span>
+        <span>Coluna 3</span>
+    </main>
+
+    <main class="container3">
+        <a href="https:\\www.google.com">Link 1</a>
+        <a href="https:\\www.google.com">Link 2</a>
+        <a href="https:\\www.google.com">Link 3</a>
+    </main>
+
+    <main class="container4">
+        <span>Coluna 1</span>
+        <span>Coluna 2</span>
+    </main>
+</body>
+</html>

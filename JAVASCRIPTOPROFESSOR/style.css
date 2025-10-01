@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.divContadores {
+width: 100vw;
+height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.comando {
+    width: 50px;
+    height: 40px;
+}
+
+#divContadores {
+    display: flex;
+    gap: 4px;
+    flex-direction: row;
+}
+
+.contador{
+    height: 100px;
+    width: 100px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 2px;
+    border: solid rgb(36, 36, 36) 2px;
+    
+    background-color: rgb(220, 71, 71);
+    color: white;
+}

@@ -1,0 +1,86 @@
+.container1 {
+    background-color: rgb(105, 247, 105);
+}
+
+.container2 {
+    background-color: rgb(51, 167, 212);
+}
+
+.container3 {
+    background-color: rgb(189, 46, 46);
+}
+
+.container4 {
+    background-color: rgb(37, 29, 29);
+}
+
+.container5 {
+    background-color: rgb(112, 0, 163);
+}
+
+.divContador {
+    background-color: rgb(201, 189, 189);
+    font-size: 100px;
+    color: rgb(56, 55, 55);
+}
+
+.container1, .container2, .container3, .container4, .container5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width: 98vw;
+    border: solid 2px black;
+}
+
+button {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: clamp(50px, 25%, 250px);
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+
+    transition: 2s width, height 2s;
+}
+
+button:active {
+    width: 300px;
+    height: 300px;
+    border-radius: 500px;
+}
+
+body {
+    background-color: rgba(226, 226, 226, 0.562);
+}
+
+/* Tooltip*/
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+h3 {
+    color: white;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  background-color: blueviolet;
+}

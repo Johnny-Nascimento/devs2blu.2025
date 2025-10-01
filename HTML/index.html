@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>llllllllllllll</title>
+</head>
+<style>
+    @font-face { font-family: Pasta; src: url('PastapersonaluseBold-vmoLA.otf'); } 
+    input {
+        display: block;
+    }
+
+    .Titulo{
+        color: grey;
+        font-size: 100px;
+        font-family: Pasta;
+    }
+
+</style>
+<body>
+<h1 class="Titulo">The quick brown fox jumps over the lazy dog</h1>
+<form method="post" action="http://localhost/formulario">
+    <fieldset>
+        <legend>Dados</legend>
+
+        <Label for="txtA">A: </Label>
+        <input id="txtA" name="A" type="text">
+
+        <Label for="txtB">B: </Label>
+        <input id="txtB" name="B" type="text">
+    </fieldset>
+
+    <fieldset>
+        <legend>Formularios desafio</legend>
+
+        <label for="chkC">checkbox</label>
+        <input id="chkC" name="C" type="checkbox">
+        <br>
+        <label for="colorD">color</label>
+        <input id="colorD" name="D" type="color">
+        <br>
+        <label for="weekE">week</label>
+        <input id="weekE" name="E" type="week">
+
+        <input type="email">
+
+        <input type="reset">
+
+        <input type="password" placeholder="AAAAAAAAAAAA">
+
+        <input type="hidden" value="AAAAAAAAA">
+    </fieldset>
+
+    <fieldset>
+        <legend>Formularios exercicio</legend>
+
+        <Label for="txtNome">Nome: </Label>
+        <input id="txtNome" name="Nome" type="text">
+
+        <Label for="txtEmail">Email: </Label>
+        <input id="txtEmail" name="Email" type="text">
+
+        <Label for="txtSenha">Senha: </Label>
+        <input id="txtSenha" name="Senha" type="password">
+
+        <Label for="cmbGenero">Genero: </Label>
+        <select id="cmbGenero" name="Genero">
+            <option value="Masculino">Masculino</option>
+            <option value="Feminino">Feminino</option>
+            <option value="Outro">Outro</option>
+        </select>
+
+        <br>
+        <Label for="dtDataNascimento">Data Nascimento: </Label>
+        <input id="dtDataNascimento" name="Data Nascimento" type="date">
+    </fieldset>
+
+    <button type="submit">Enviar</button>
+</form>
+</body>
+</html>

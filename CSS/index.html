@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./001.css">
+
+    <link rel="stylesheet" href="./buttonStyle.css">
+    <link rel="stylesheet" href="./inputStyle.css">
+</head>
+<body>
+    <h1>Titulo H1</h1>
+    <h2>Titulo H2</h2>
+    <h3>Titulo H3</h3> 
+    <h4>Titulo H4</h4>
+
+    <form style="background-color: gray;"  method="post" action="http://localhost/formulario">
+    <fieldset>
+        <legend>Cadastro</legend>
+
+        <Label for="txtNome">Nome: </Label>
+        <input id="txtNome" name="Nome" type="text">
+
+        <Label for="txtData">Data: </Label>
+        <input id="txtData" name="Data" type="date">
+
+        <Label for="txtCPF">CPF: </Label>
+        <input id="txtCPF" name="CPF" type="text">
+    </fieldset>
+    <button id="salvar">Salvar</button>
+    <button id="editar">Editar</button>
+    <button id="excluir">Excluir</button>
+    </form>
+</body>
+</html>

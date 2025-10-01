@@ -1,0 +1,17 @@
+button {
+    border-radius: 25%;
+    font-size: 2rem;
+    border: solid 3px yellow;
+}
+
+#salvar {
+    background-color: lightgreen;
+}
+
+#editar {
+    background-color: lightblue;
+}
+
+#excluir {
+    background-color: lightcoral;
+}
